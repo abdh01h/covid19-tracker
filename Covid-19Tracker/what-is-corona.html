@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Covid-19 Tracker">
+    <meta name="keywords" content="Covid-19 Tracker">
+    <title>What's Covid-19 | Covid-19 Tracker</title>
+    <link rel="apple-touch-icon" href="app-assets/images/favicon/apple-touch-icon-152x152.png">
+    <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/favicon/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- BEGIN: VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/flag-icon/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/data-tables/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/data-tables/extensions/responsive/css/responsive.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/data-tables/css/select.dataTables.min.css">
+    <!-- END: VENDOR CSS-->
+    <!-- BEGIN: Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/themes/horizontal-menu-template/materialize.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/themes/horizontal-menu-template/style.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/layouts/style-horizontal.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/pages/data-tables.css">
+    <!-- END: Page Level CSS-->
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/custom/custom.css">
+    <!-- END: Custom CSS-->
+</head>
+<!-- END: Head-->
+
+<body class="horizontal-layout page-header-light horizontal-menu preload-transitions 2-columns   " data-open="click" data-menu="horizontal-menu" data-col="2-columns">
+
+    <!-- BEGIN: Header-->
+    <header class="page-topbar" id="header">
+        <div class="navbar navbar-fixed">
+            <nav class="navbar-main navbar-color nav-collapsible sideNav-lock navbar-dark gradient-45deg-indigo-purple">
+                <div class="nav-wrapper">
+                    <ul class="left">
+                        <li>
+                            <h1 class="logo-wrapper">
+                                <a class="brand-logo darken-1" href="index.html">
+                                    <img src="app-assets/images/logo/virus.png" alt="logo">
+                                    <span class="logo-text hide-on-med-and-down">Covid-19 Tracker</span>
+                                </a>
+                            </h1>
+                        </li>
+                    </ul>
+                    <ul class="navbar-list right">
+                        <li class="hide-on-med-and-down">
+                            <a class="waves-effect waves-block waves-light toggle-fullscreen" href="javascript:void(0);"><i class="material-icons">settings_overscan</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- BEGIN: Horizontal nav start-->
+            <nav class="white hide-on-med-and-down" id="horizontal-nav">
+                <div class="nav-wrapper">
+                    <ul class="left hide-on-med-and-down" id="ul-horizontal-nav" data-menu="menu-navigation">
+                        <li>
+                            <a href="index.html">
+                                <i class="material-icons">home</i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="analytics.html">
+                                <i class="material-icons">assessment</i>
+                                <span>Analytics</span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="what-is-corona.html">
+                                <i class="material-icons">help</i>
+                                <span>What's Covid-19</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="corona-symptoms.html">
+                                <i class="material-icons">perm_identity</i>
+                                <span>Corona Symptoms</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="prevention.html">
+                                <i class="material-icons">security</i>
+                                <span>Prevention</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="cures.html">
+                                <i class="material-icons">opacity</i>
+                                <span>Cures</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="hotlines.html">
+                                <i class="material-icons">phone</i>
+                                <span>Hotlines</span>
+                            </a>
+                        </li>
+                 
+
+                    </ul>
+                    <!-- END: Horizontal nav start-->
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- END: Header-->
+
+    <!-- BEGIN: SideNav-->
+    <aside class="sidenav-main nav-expanded nav-lock nav-collapsible sidenav-fixed hide-on-large-only">
+        <div class="brand-sidebar sidenav-light"></div>
+        <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed hide-on-large-only menu-shadow" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion">
+            <h1 class="center">
+                <a class="black-text" href="index.html">
+                    <img src="app-assets/images/logo/virus_black.png" alt="logo">
+                    <span class="black-text" style="font-size: 18px; display: block;">Covid-19 Tracker</span>
+                </a>
+            </h1>
+            <li class="bold">
+                <a class="waves-effect waves-cyan" href="index.html">
+                    <i class="material-icons">home</i>
+                    <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="bold">
+                <a class="waves-effect waves-cyan" href="analytics.html">
+                    <i class="material-icons">assessment</i>
+                    <span class="menu-title">Analytics</span>
+                </a>
+            </li>
+            <li class="bold">
+                <a class="waves-effect waves-cyan active" href="what-is-corona.html">
+                    <i class="material-icons">help</i>
+                    <span class="menu-title">What's Covid-19</span>
+                </a>
+            </li>
+            <li class="bold">
+                <a class="waves-effect waves-cyan" href="corona-symptoms.html">
+                    <i class="material-icons">perm_identity</i>
+                    <span class="menu-title">Corona Symptoms</span>
+                </a>
+            </li>
+            <li class="bold">
+                <a class="waves-effect waves-cyan" href="prevention.html">
+                    <i class="material-icons">security</i>
+                    <span class="menu-title">Prevention</span>
+                </a>
+            </li>
+
+            <li class="bold">
+                <a class="waves-effect waves-cyan" href="cures.html">
+                    <i class="material-icons">opacity</i>
+                    <span class="menu-title">Cures</span>
+                </a>
+            </li>
+            <li class="bold">
+                <a class="waves-effect waves-cyan" href="hotlines.html">
+                    <i class="material-icons">phone</i>
+                    <span class="menu-title">Hotlines</span>
+                </a>
+            </li>
+        </ul>
+        <a class="sidenav-trigger btn-floating btn-medium waves-effect waves-light hide-on-large-only" href="#" data-target="slide-out">
+            <i class="material-icons">menu</i>
+        </a>
+    </aside>
+    <!-- END: SideNav-->
+
+    <!-- BEGIN: Page Main-->
+    <div id="main">
+        <div class="row">
+            <div class="col s12">
+                <div class="container">
+                    <div class="section">
+
+                        <div id="popout" class="row animate fadeUp mt-2">
+                            <div class="col s12">
+                                <ul class="collapsible popout">
+                                    <li class="active">
+                                        <div class="collapsible-header gradient-45deg-indigo-purple white-text" tabindex="0"><i class="material-icons dp48">lightbulb_outline</i>What Is Coronavirus</div>
+                                        
+                                        <div class="collapsible-body" style="display: block;">
+                                        <span>A coronavirus is a kind of common virus that infects humans, typically leading to an upper respiratory infection.  Seven different types of human coronavirus have been identified. 
+                                            Most people will be infected with at least one type of coronavirus in their lifetime. 
+                                            Coronavirus spreads through the air by coughing and sneezing, close personal contact, touching an object or surface contaminated with the virus and rarely,
+                                            by fecal contamination. The illness caused by most coronaviruses usually lasts a short time and is characterized by runny nose, sore throat, feeling unwell, cough, and fever.
+                                        </span>
+                                        
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="collapsible-header gradient-45deg-indigo-purple white-text" tabindex="0"><i class="material-icons">history</i>Coronavirus Histroy</div>
+                                        <div class="collapsible-body">
+                                            <span>Experts say SARS-CoV-2 originated in bats. That’s also how the coronaviruses behind Middle East respiratory syndrome (MERS) and severe acute respiratory syndrome (SARS) got started.
+                                            SARS-CoV-2 made the jump to humans at one of Wuhan’s open-air “wet markets.”
+                                            They’re where customers buy fresh meat and fish, including animals that are killed on the spot.Some wet markets sell wild or banned species like cobras, wild boars, and raccoon dogs.
+                                            Crowded conditions can let viruses from different animals swap genes. 
+                                            Sometimes the virus changes so much it can start to infect and spread among people.Still, the Wuhan market didn’t sell bats at the time of the outbreak. 
+                                            That’s why early suspicion also fell on pangolins, also called scaly anteaters, which are sold illegally in some markets in China. 
+                                            Some coronaviruses that infect pangolins are similar to SARS-CoV-2.
+                                            As they spread both inside and outside China, it infected people who have had no direct contact with animals. 
+                                            That meant the virus is transmitted from one human to another. It’s now spreading in the U.S. and around the globe, meaning that people are unwittingly catching and passing on the coronavirus.
+                                            This growing worldwide transmission is what is now a pandemic.
+
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="collapsible-header gradient-45deg-indigo-purple white-text" tabindex="0"><i class="material-icons dp48">public</i>Coronavirus Evolution</div>
+                                        <div class="collapsible-body">
+                                            <span>Scientists first identified a human coronavirus in 1965. It caused a common cold. Later that decade, researchers found a group of similar human and animal viruses and named them after their crown-like appearance.
+
+                                            Seven coronaviruses can infect humans. The one that causes SARS emerged in southern China in 2002 and quickly spread to 28 other countries. More than 8,000 people were infected by July 2003, and 774 died. A small outbreak in 2004 involved only four more cases. 
+                                            This coronavirus causes fever, headache, and respiratory problems such as cough and shortness of breath.
+                                            MERS started in Saudi Arabia in 2012. Almost all of the nearly 2,500 cases have been in people who live in or travel to the Middle East. This coronavirus is less contagious than its SARS cousin but more deadly. It has the same respiratory symptoms
+                                            but can also cause kidney failure.
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="collapsible-header gradient-45deg-indigo-purple" tabindex="0" style="color:white"><i class="material-icons">help_outline</i>What Is Covid-19</div>
+                                        <div class="collapsible-body">
+                                            <span>Covid 19 ( a shortening of Corona Virus Disease-19) is a coronavirus disease caused by the novel coronavirus causing COVID-19, subsequently
+                                                named SARS-CoV-2 were first reported by officials in Wuhan City, China, in December 2019. Retrospective
+                                                investigations by Chinese authorities have identified human cases with onset of symptoms in early December 2019. 
+                                                Covid 19 is a highly transmittable and pathogenic viral infection caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), 
+                                                which spread around the world. The virus is typically rapidly spread from one person to another via respiratory droplets produced during coughing
+                                                and sneezing. It is considered most contagious when people are symptomatic, although transmission may be possible before symptoms show in patients. Time from exposure
+                                                and symptom onset is generally between two and 14 days, with an average of five days. COVID-19 symptoms can range from mild
+                                                (or no symptoms) to severe illness.
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="collapsible-header gradient-45deg-indigo-purple" tabindex="0" style="color:white"><i class="material-icons dp48">receipt</i>Covid-19 Testing</div>
+                                        <div class="collapsible-body">
+                                            <span>There are two types Of Covid-19 testing as shown in the following table</span>
+                                            <table class="bordered mt-1">
+                                                <thead class="gradient-45deg-indigo-purple white-text">
+                                                <tr>
+                                                    <th data-field="id">Difference</th>
+                                                    <th data-field="name">Viral Test</th>
+                                                    <th data-field="price">Serology Test</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="indigo white-text">Definition</td>
+                                                        <td style="background-color:#ede7f6"> An oral or nasal swab or
+                                                            saliva test that looks for evidence of
+                                                            an active viral infection. There are
+                                                            two major types: a PCR test and an
+                                                            antigen test.</td>
+                                                        <td style="background-color:#ede7f6"> A blood test that
+                                                            looks for evidence of someone’s prior
+                                                            infection with the virus.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="indigo white-text">Functionality</td>
+                                                        <td style="background-color:#ede7f6">PCR tests look for the presence of a
+                                                            virus’s genetic material, while antigen
+                                                            tests look for specific proteins on a
+                                                            virus’s surface. Antigen tests produce
+                                                            results more quickly, but may be
+                                                            less sensitive.</td>
+                                                        <td style="background-color:#ede7f6">The test provides evidence that
+                                                            someone may have been exposed to the
+                                                            virus in the past, potentially even if they
+                                                            did not have symptoms, by detecting
+                                                            antibodies specific to the virus. 
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="indigo white-text">Disadvantage</td>
+                                                        <td style="background-color:#ede7f6">Viral tests do not indicate whether
+                                                            someone was infected in the past.
+                                                            </td>
+                                                        <td style="background-color:#ede7f6">The test does not diagnose an active
+                                                            infection or identify who is protected
+                                                            from reinfection (antibodies have not
+                                                            been proven to guarantee immunity).</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="indigo white-text">FDA handling</td>
+                                                        <td style="background-color:#ede7f6">The FDA formally evaluates these
+                                                            tests prior to use.
+                                                            </td>
+                                                        <td style="background-color:#ede7f6">The FDA does not formally evaluate
+                                                            these tests prior to use, though a few
+                                                            have Emergency Use Authorization.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </li> 
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="content-overlay"></div>
+            </div>
+        </div>
+    </div>
+    <!-- END: Page Main-->
+
+    <!-- BEGIN: Footer-->
+
+    <footer class="page-footer footer footer-static footer-dark gradient-45deg-indigo-purple gradient-shadow navbar-border navbar-shadow">
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="center">&copy; 2020 <a href="index.html">Covid-19 Tracker</a> All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- END: Footer-->
+    <!-- BEGIN VENDOR JS-->
+    <script src="app-assets/js/vendors.min.js"></script>
+    <!-- BEGIN VENDOR JS-->
+    <!-- BEGIN PAGE VENDOR JS-->
+    <!-- END PAGE VENDOR JS-->
+    <!-- BEGIN THEME  JS-->
+    <script src="app-assets/js/plugins.js"></script>
+    <script src="app-assets/js/custom/custom-script.js"></script>
+    <!-- END THEME  JS-->
+    <!-- BEGIN PAGE LEVEL JS-->
+    <!-- END PAGE LEVEL JS-->
+</body>
+
+</html>

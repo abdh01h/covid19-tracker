@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Covid-19 Tracker">
+    <meta name="keywords" content="Covid-19 Tracker">
+    <title>Cures | Covid-19 Tracker</title>
+    <link rel="apple-touch-icon" href="app-assets/images/favicon/apple-touch-icon-152x152.png">
+    <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/favicon/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- BEGIN: VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/flag-icon/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/data-tables/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/data-tables/extensions/responsive/css/responsive.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/data-tables/css/select.dataTables.min.css">
+    <!-- END: VENDOR CSS-->
+    <!-- BEGIN: Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/themes/horizontal-menu-template/materialize.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/themes/horizontal-menu-template/style.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/layouts/style-horizontal.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/pages/data-tables.css">
+    <!-- END: Page Level CSS-->
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/custom/custom.css">
+    <!-- END: Custom CSS-->
+</head>
+<!-- END: Head-->
+
+<body class="horizontal-layout page-header-light horizontal-menu preload-transitions 2-columns   " data-open="click" data-menu="horizontal-menu" data-col="2-columns">
+
+    <!-- BEGIN: Header-->
+    <header class="page-topbar" id="header">
+        <div class="navbar navbar-fixed">
+            <nav class="navbar-main navbar-color nav-collapsible sideNav-lock navbar-dark gradient-45deg-indigo-purple">
+                <div class="nav-wrapper">
+                    <ul class="left">
+                        <li>
+                            <h1 class="logo-wrapper">
+                                <a class="brand-logo darken-1" href="index.html">
+                                    <img src="app-assets/images/logo/virus.png" alt="logo">
+                                    <span class="logo-text hide-on-med-and-down">Covid-19 Tracker</span>
+                                </a>
+                            </h1>
+                        </li>
+                    </ul>
+                    <ul class="navbar-list right">
+                        <li class="hide-on-med-and-down">
+                            <a class="waves-effect waves-block waves-light toggle-fullscreen" href="javascript:void(0);"><i class="material-icons">settings_overscan</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- BEGIN: Horizontal nav start-->
+            <nav class="white hide-on-med-and-down" id="horizontal-nav">
+                <div class="nav-wrapper">
+                    <ul class="left hide-on-med-and-down" id="ul-horizontal-nav" data-menu="menu-navigation">
+                        <li>
+                            <a href="index.html">
+                                <i class="material-icons">home</i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="analytics.html">
+                                <i class="material-icons">assessment</i>
+                                <span>Analytics</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="what-is-corona.html">
+                                <i class="material-icons">help</i>
+                                <span>What's Covid-19</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="corona-symptoms.html">
+                                <i class="material-icons">perm_identity</i>
+                                <span>Corona Symptoms</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="prevention.html">
+                                <i class="material-icons">security</i>
+                                <span>Prevention</span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="cures.html">
+                                <i class="material-icons">opacity</i>
+                                <span>Cures</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="hotlines.html">
+                                <i class="material-icons">phone</i>
+                                <span>Hotlines</span>
+                            </a>
+                        </li>
+                 
+
+                    </ul>
+                    <!-- END: Horizontal nav start-->
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- END: Header-->
+
+    <!-- BEGIN: SideNav-->
+    <aside class="sidenav-main nav-expanded nav-lock nav-collapsible sidenav-fixed hide-on-large-only">
+        <div class="brand-sidebar sidenav-light"></div>
+        <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed hide-on-large-only menu-shadow" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion">
+            <h1 class="center">
+                <a class="black-text" href="index.html">
+                    <img src="app-assets/images/logo/virus_black.png" alt="logo">
+                    <span class="black-text" style="font-size: 18px; display: block;">Covid-19 Tracker</span>
+                </a>
+            </h1>
+            <li class="bold">
+                <a class="waves-effect waves-cyan" href="index.html">
+                    <i class="material-icons">home</i>
+                    <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="bold">
+                <a class="waves-effect waves-cyan" href="analytics.html">
+                    <i class="material-icons">assessment</i>
+                    <span class="menu-title">Analytics</span>
+                </a>
+            </li>
+            <li class="bold">
+                <a class="waves-effect waves-cyan" href="what-is-corona.html">
+                    <i class="material-icons">help</i>
+                    <span class="menu-title">What's Covid-19</span>
+                </a>
+            </li>
+            <li class="bold">
+                <a class="waves-effect waves-cyan" href="corona-symptoms.html">
+                    <i class="material-icons">perm_identity</i>
+                    <span class="menu-title">Corona Symptoms</span>
+                </a>
+            </li>
+            <li class="bold">
+                <a class="waves-effect waves-cyan" href="prevention.html">
+                    <i class="material-icons">security</i>
+                    <span class="menu-title">Prevention</span>
+                </a>
+            </li>
+
+            <li class="bold">
+                <a class="waves-effect waves-cyan active" href="cures.html">
+                    <i class="material-icons">opacity</i>
+                    <span class="menu-title">Cures</span>
+                </a>
+            </li>
+            <li class="bold">
+                <a class="waves-effect waves-cyan" href="hotlines.html">
+                    <i class="material-icons">phone</i>
+                    <span class="menu-title">Hotlines</span>
+                </a>
+            </li>
+        </ul>
+        <a class="sidenav-trigger btn-floating btn-medium waves-effect waves-light hide-on-large-only" href="#" data-target="slide-out">
+            <i class="material-icons">menu</i>
+        </a>
+    </aside>
+    <!-- END: SideNav-->
+
+    <!-- BEGIN: Page Main-->
+    <div id="main">
+        <div class="row">
+
+            <div class="container">
+
+                <div class="row animate fadeUp mt-4">
+
+                    <div class="col s12 l8 offset-l2">
+                        <div class="card grey darken-3">
+
+                            <div class="card-content white-text">
+
+
+                                <p class="flow-text">
+                                    <h4 class=" white-text ">Research Around the World</h4>
+                                    # Trials around the world are attempting to identify treatments for people with severe Covid-19. The first drugs that do make a difference are now being identified. <br><br> # More than 150 different drugs are being
+                                    researched in different countries. Most are existing drugs that are being trialled against the virus. <br> <br> # Of all the drugs being trialled, only steroids have been proven to save lives and the discovery has been
+                                    a a significant breakthrough in the fight against coronavirus.
+
+
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col s12 l8 offset-l2">
+                        <div class="card grey darken-3">
+    
+                            <div class="card-content white-text">
+    
+                                <h4 class="white-text ">Possible Treatment Options</h4>
+                                <br>
+                                <h5 class=" white-text">
+                                    Chloroquine
+                                </h5>
+                                <p class=" white-text">
+    
+                                    Chloroquine is a drug that’s used to fight malaria and autoimmune diseases. It’s been in use for more than 70 yearsTrusted Source and is considered safe. Researchers have discovered that this drug is effective at fighting the SARS-CoV-2 virus in studies
+                                    done in test tubes.
+                                    <br><br>
+    
+                                    <h5 class=" white-text">
+                                        APN01
+                                    </h5>
+    
+                                    <p>
+    
+                                        A clinical trial is set to start soon in China to examine the potential of a drug called APN01 to fight the novel coronavirus. The scientists who first developed APN01 in the early 2000s discovered that a certain protein called ACE2 is involved in SARS
+                                        infections. This protein also helped protect the lungs from injury due to respiratory distress.
+                                    </p>
+    
+                                    <h5 class=" white-text">
+                                        Favilavir
+                                    </h5>
+    
+                                    <p>
+    
+                                        Favilavir China has approved the use of the antiviral drug favilavir to treat symptoms of COVID-19. The drug was initially developed to treat inflammation in the nose and throat.
+    
+    
+                                    </p>
+    
+                                </p>
+                            </div>
+    
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="content-overlay "></div>
+    </div>
+    </div>
+    <!-- END: Page Main-->
+
+    <!-- BEGIN: Footer-->
+
+    <footer class="page-footer footer footer-static footer-dark gradient-45deg-indigo-purple gradient-shadow navbar-border navbar-shadow">
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="center">&copy; 2020 <a href="index.html">Covid-19 Tracker</a> All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- END: Footer-->
+    <!-- BEGIN VENDOR JS-->
+    <script src="app-assets/js/vendors.min.js "></script>
+    <!-- BEGIN VENDOR JS-->
+    <!-- BEGIN PAGE VENDOR JS-->
+    <!-- END PAGE VENDOR JS-->
+    <!-- BEGIN THEME  JS-->
+    <script src="app-assets/js/plugins.js "></script>
+    <script src="app-assets/js/custom/custom-script.js "></script>
+    <!-- END THEME  JS-->
+    <!-- BEGIN PAGE LEVEL JS-->
+    <!-- END PAGE LEVEL JS-->
+</body>
+
+</html>

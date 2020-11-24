@@ -1,0 +1,38 @@
+#ul-horizontal-nav {
+	overflow: hidden !important;
+}
+
+.sidenav {
+	overflow-x: hidden !important;
+	overflow-y: auto !important;
+}
+
+.btn-floating {
+	background-color: #3500c5;
+}
+
+.btn-floating:hover {
+	background-color: #3500c5;
+}
+
+.btn-floating:focus {
+	background-color: #3500c5;
+}
+
+header .brand-logo {
+    padding: 11px 12px;
+}
+
+header .brand-logo img {
+    height: 42px;
+}
+
+header .brand-logo .logo-text {
+    position: relative;
+    bottom: 12px;
+}
+
+td, th {
+    border-radius: 0;
+}
+
